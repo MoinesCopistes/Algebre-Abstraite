@@ -99,7 +99,7 @@ $$
 ## Classes Latérales/Suivant un Sous-Groupe $H$ 
 Soit $H$ un sous-groupe de $G$. La classe latérale de $a\in G$ modulo $H$ est :
 $$
-aH=\{ax|x\in H\}
+aH=\{x\in H|ax\}
 $$
 
 (ici, $ab$ signifie $a*b$ où $*$ est l'opérateur du groupe)
@@ -109,13 +109,13 @@ Les classes latérales de $a\in G$ modulo $H$ avec $H$ un sous-groupe ne sont pa
 ```
 
 ***Exemple(s) :***
-1. $\mathbb{Z}$ est un sous-groupe de $(\mathbb{R},+)$ : les classes latérales sont $\{x+a|x \in \mathbb{Z}\}$ avec $a\in[0,1]$
-2. $\{(x, ax) | x \in \mathbb{R}\}$ est un sous-groupe de $(\mathbb{R}^2, +)$ (addition par composants) 
+1. $\mathbb{Z}$ est un sous-groupe de $(\mathbb{R},+)$ : les classes latérales sont $\{x \in \mathbb{Z}|x+a\}$ avec $a\in[0,1]$
+2. $\{ x \in \mathbb{R}|(x, ax) \}$ est un sous-groupe de $(\mathbb{R}^2, +)$ (addition par composants) 
    Les classes latérales sont ${(x, ax + b) , | , x \in \mathbb{R}}$ avec $b \in \mathbb{R}$
-3. $n\mathbb{Z} = \{nx | x \in \mathbb{Z}\}$ avec $n \in \mathbb{N}^{\geq 1}$ est un sous-groupe de $(\mathbb{Z}, +)$ 
-   Les classes latérales sont $\{nx + b , | , x \in \mathbb{Z}\}$ avec $b \in \{0, \ldots, n-1\}$
-4. $\{2^i | i \in \mathbb{Z}\}$ est un sous-groupe de $(\mathbb{R}^{\gt 0}, *)$ 
-   Les classes latérales sont $\{a *2^i , | , i \in \mathbb{Z}\}$ avec $a \in [1, 2)$
+3. $n\mathbb{Z} = \{ x \in \mathbb{Z}|nx \}$ avec $n \in \mathbb{N}^{\geq 1}$ est un sous-groupe de $(\mathbb{Z}, +)$ 
+   Les classes latérales sont $\{ x \in \mathbb{Z}|nx + b \}$ avec $b \in \{0, \ldots, n-1\}$
+4. $\{ i \in \mathbb{Z}|2^i \}$ est un sous-groupe de $(\mathbb{R}^{\gt 0}, *)$ 
+   Les classes latérales sont $\{i \in \mathbb{Z}|a *2^i\}$ avec $a \in [1, 2)$
 
 ***Propriétés/Théorèmes :***
 1. Il existe une bijection entre $aH$ et $H$.
