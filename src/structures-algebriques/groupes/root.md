@@ -1,6 +1,6 @@
 ## Groupes
 Un groupe est un ***monoïde*** $(G,*)$ tel que :
-- tous les éléments de $G$ possèdent un inverse par rapport à l'opérateur $*$. ***(Cet inverse peut être et est souvent unique à l'élément en question, il ne faut pas savoir trouver de forme générale pour l'inverse comme $1/a$ pour que tous les éléments soient inversibles)*** 
+- tous les éléments de $G$ possèdent un inverse par rapport à l'opérateur $*$. ***(La façon de trouver un inverse peut être unique à l'élément en question, il ne faut pas savoir trouver de forme générale pour l'inverse comme $1/a$ pour que tous les éléments soient inversibles)*** 
 
 ***Exemple(s) :***
 1. $(\mathbb{Z},+)$ est un groupe, mais pas $(\mathbb{N}, +)$
