@@ -38,7 +38,7 @@ $$
    <summary>
    <b><i>Preuve :</i></b>
    </summary>
-	Soit $a$ un élément de $A$, $b$ son inverse à gauche et $c$ l'inverse à gauche de $b$. On commence avec $ab=1_{A$ et on multiplie à gauche par $c$ : $cab=c$ et on applique l'associativité : $c(ab)=c$ et donc $(ca)b=c$. On sait que $ca=1_{A}$ et donc $b=c$. $a$ est donc inversible et $A$ est un groupe.
+	Soit $a$ un élément de $A$, $b$ son inverse à gauche et $c$ l'inverse à gauche de $b$. On commence avec $ba=1_{A}$ et on multiplie à gauche par $c$ : $c(ba)=c$ et on applique l'associativité : $c(ba)=c$ et donc $(cb)a=c$. On sait que $cb=1_{A}$ et donc $a=c$. Comme $a$ est inversible à gauche par définition et inversible à droite par son égalité à $c$ ($b$ est son inverse à droite), on a donc que $a$ est inversible et $A$ est un groupe.
    </details>
 
 ---
